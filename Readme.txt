@@ -28,5 +28,7 @@ Argument 3: lambda
 Argument 4: num_iterations
 
 Step1 : javac LogisticsRegression.java 
-Step 2 : java LogisticsRegression yes_or_no_to_filter_stop_words 0.01 0.1 5 
-Example: java LogisticsRegression no 0.01 .01 10
+Step 2 : 
+java LogisticsRegression "path_of_data_files" yes_or_no 0.01 .01 10 1000
+ 
+Ex: java LogisticsRegression "C:/Users/kanwa/Desktop/Assignment2" no 0.01 .01 10 1000
